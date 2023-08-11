@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestPet" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-05-13T15:59:50" hostname="DESKTOP-8UH2HTJ" time="12.952">
+<testsuite name="TestPet" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-05-29T13:03:11" hostname="DESKTOP-8UH2HTJ" time="40.356">
   <properties/>
-  <testcase name="РўРµСЃС‚ РѕС‚РєСЂС‹С‚РёСЏ СЃС‚СЂР°РЅРёС†С‹" classname="TestPet" time="12.952">
-    <failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52699/devtools/browser/8c4687d2-13f8-4841-ace4-d4d81c2f4336&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-8UH2HTJ', ip: '192.168.10.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'&#10;Driver info: driver.version: SelenideDriver&#10;selenide.url: https://google.com&#10;selenide.baseUrl: http://localhost:8080" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52699/devtools/browser/8c4687d2-13f8-4841-ace4-d4d81c2f4336
+  <testcase name="РўРµСЃС‚ РёРјРµРЅРё" classname="TestPet" time="1.137"/>
+  <testcase name="РўРµСЃС‚ РѕС‚РєСЂС‹С‚РёСЏ СЃС‚СЂР°РЅРёС†С‹" classname="TestPet" time="39.158">
+    <failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:63867/devtools/browser/ada15561-e453-463c-8e18-298d656222b3&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-8UH2HTJ', ip: '172.30.32.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'&#10;Driver info: driver.version: SelenideDriver&#10;selenide.url: https://google.com&#10;selenide.baseUrl: http://localhost:8080" type="org.openqa.selenium.remote.http.ConnectionFailedException">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:63867/devtools/browser/ada15561-e453-463c-8e18-298d656222b3
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'DESKTOP-8UH2HTJ', ip: '192.168.10.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+System info: host: 'DESKTOP-8UH2HTJ', ip: '172.30.32.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: driver.version: SelenideDriver
 selenide.url: https://google.com
 selenide.baseUrl: http://localhost:8080
@@ -122,13 +123,13 @@ selenide.baseUrl: http://localhost:8080
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 62501
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 58146
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-мая 13, 2023 7:00:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+мая 29, 2023 4:03:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-мая 13, 2023 7:00:02 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+мая 29, 2023 4:03:50 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Invalid Status code=403 text=Forbidden
 java.io.IOException: Invalid Status code=403 text=Forbidden
 	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
